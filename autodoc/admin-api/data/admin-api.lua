@@ -437,11 +437,11 @@ return {
             {
                 "fields": {
                     "hide_credentials": {
-                        "default": false,
+                        "default": true,
                         "type": "boolean"
                     },
                     "key_names": {
-                        "default": "function",
+                        "default": ["apikey"],
                         "required": true,
                         "type": "array"
                     }
