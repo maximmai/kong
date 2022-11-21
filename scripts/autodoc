@@ -176,7 +176,7 @@ done
 
 insert_yaml_file_into_nav_file ./autodoc/output/nav/docs_nav.yml.admin-api.in \
                                "$DOCS_NAV" \
-                               "/title: Admin API/="
+                               "/text: Admin API/="
 
 insert_yaml_file_into_nav_file ./autodoc/output/_pdk_nav.yml \
                                "$DOCS_NAV" \
