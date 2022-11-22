@@ -25,6 +25,11 @@ local function load_credential(key)
     return nil, err
   end
 
+  if cred.ttl == 0 then
+    cred = { id = cred.id }
+    return cred, nil, nil
+  end
+
   return cred, nil, cred.ttl
 end
 
